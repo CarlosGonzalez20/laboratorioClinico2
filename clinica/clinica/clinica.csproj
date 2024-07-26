@@ -68,6 +68,12 @@
     <Compile Include="Cargo.Designer.cs">
       <DependentUpon>Cargo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Medico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medico.Designer.cs">
+      <DependentUpon>Medico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Personal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="facturacion.resx">
       <DependentUpon>facturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medico.resx">
+      <DependentUpon>Medico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Personal.resx">
       <DependentUpon>Personal.cs</DependentUpon>
