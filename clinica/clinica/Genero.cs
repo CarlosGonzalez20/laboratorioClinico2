@@ -9,16 +9,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 
+
 namespace clinica
 {
-    public partial class Clinica : MaterialSkin.Controls.MaterialForm
+    public partial class Genero : MaterialSkin.Controls.MaterialForm
     {
-        public Clinica()
+        public Genero()
         {
             InitializeComponent();
         }
 
-        private void Clinica_Load(object sender, EventArgs e)
+        private void Genero_Load(object sender, EventArgs e)
         {
 
         }
