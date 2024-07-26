@@ -39,6 +39,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -92,6 +93,12 @@
     <Compile Include="Medico.Designer.cs">
       <DependentUpon>Medico.cs</DependentUpon>
     </Compile>
+    <Compile Include="Muestras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muestras.Designer.cs">
+      <DependentUpon>Muestras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Personal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +118,12 @@
     </Compile>
     <Compile Include="Proveedor.Designer.cs">
       <DependentUpon>Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SOLICITUD_DE_CITAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOLICITUD_DE_CITAS.Designer.cs">
+      <DependentUpon>SOLICITUD_DE_CITAS.cs</DependentUpon>
     </Compile>
     <Compile Include="tipoEmpleado.cs">
       <SubType>Form</SubType>
@@ -139,6 +152,9 @@
     <EmbeddedResource Include="Medico.resx">
       <DependentUpon>Medico.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Muestras.resx">
+      <DependentUpon>Muestras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Personal.resx">
       <DependentUpon>Personal.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,15 +163,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Proveedor.resx">
       <DependentUpon>Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOLICITUD_DE_CITAS.resx">
+      <DependentUpon>SOLICITUD_DE_CITAS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tipoEmpleado.resx">
       <DependentUpon>tipoEmpleado.cs</DependentUpon>
@@ -173,6 +187,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
